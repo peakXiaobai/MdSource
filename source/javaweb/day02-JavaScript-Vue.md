@@ -8,7 +8,7 @@ html完成了架子，css做了美化，但是网页是死的，我们需要给�
 
 通过**代码/js效果演示**提供资料进行效果演示，通过浏览器打开，我们点击主题5按钮，页面的主题发生了变化，所以js可以让我们的页面更加的智能，让页面和用户进行交互。
 
-![1667964998343](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1667964998343.png) 
+![1667964998343](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1667964998343.png?raw=true) 
 
 
 
@@ -75,13 +75,13 @@ html完成了架子，css做了美化，但是网页是死的，我们需要给�
 
 第三步：浏览器打开效果如图所示：
 
-![1668020985363](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668020985363.png) 
+![1668020985363](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668020985363.png?raw=true) 
 
 
 
 第四步：接下来演示外部脚本，注释掉内部脚本，然后在css目录同级创建js目录，然后创建一个名为demo.js的文件：
 
-![1668021080890](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668021080890.png) 
+![1668021080890](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668021080890.png?raw=true) 
 
 
 
@@ -121,7 +121,7 @@ alert('Hello JS2');
 
 第七步：浏览器刷新效果如图：
 
-![1668021241174](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668021241174.png) 
+![1668021241174](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668021241174.png?raw=true) 
 
 
 
@@ -185,7 +185,7 @@ alert('Hello JS2');
 
 浏览器打开如图所示效果：
 
-![1668101592422](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668101592422.png) 
+![1668101592422](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668101592422.png?raw=true) 
 
 
 
@@ -218,7 +218,7 @@ alert('Hello JS2');
 
 刷新浏览器，效果如图所示：
 
-![1668101718354](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668101718354.png) 
+![1668101718354](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668101718354.png?raw=true) 
 
 最后我们使用console.log("hello js"); 写入到控制台，并且注释掉之前的代码：
 
@@ -251,7 +251,7 @@ alert('Hello JS2');
 
 浏览器f12抓包，去控制台页面，如图所示：
 
-![1668101840992](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668101840992.png)
+![1668101840992](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668101840992.png?raw=true)
 
 
 
@@ -306,7 +306,7 @@ alert('Hello JS2');
 
 可以看到浏览器弹出张三
 
-![1668101996370](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668101996370.png) 
+![1668101996370](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668101996370.png?raw=true) 
 
 
 
@@ -329,7 +329,7 @@ alert('Hello JS2');
 
 浏览器照样成功弹出：
 
-![1668102183766](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668102183766.png) 
+![1668102183766](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668102183766.png?raw=true) 
 
 
 
@@ -346,7 +346,7 @@ alert(x);
 
 浏览器弹出内容是A
 
-![1668102256305](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668102256305.png) 
+![1668102256305](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668102256305.png?raw=true) 
 
 
 
@@ -379,11 +379,11 @@ alert(x);
 
 浏览器打开，f12抓包，来到控制台页面，发现报错，变量没有定义，说明let声明的变量在代码块外不生效
 
-![1668102426953](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668102426953.png)
+![1668102426953](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668102426953.png?raw=true)
 
 接着我们使用let重复定义变量，代码修改如下：发现idea直接帮我们报错了，说明let声明的变量不能重复定义
 
-![1668102527993](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668102527993.png) 
+![1668102527993](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668102527993.png?raw=true) 
 
 
 
@@ -397,7 +397,7 @@ alert(x);
 
 浏览器f12抓包，来到控制台页面发现直接报错了，
 
-![1668102736759](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668102736759.png) 
+![1668102736759](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668102736759.png?raw=true) 
 
 
 
@@ -579,7 +579,7 @@ if(1){ //true
 
 浏览器刷新，因为1理解成true，条件成立，所以浏览器效果如下；
 
-![1668103531260](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668103531260.png) 
+![1668103531260](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668103531260.png?raw=true) 
 
 
 
@@ -672,7 +672,7 @@ alert(result);
 
 查看浏览器运行结果：浏览器弹框内容如下图所示：
 
-![1668584359136](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668584359136.png) 
+![1668584359136](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668584359136.png?raw=true) 
 
 
 
@@ -713,7 +713,7 @@ var functionName = function (参数1,参数2..){
 
 浏览器弹框效果和上述一致
 
-![1668584359136](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668584359136.png) 
+![1668584359136](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668584359136.png?raw=true) 
 
 我们在调用add函数时，再添加2个参数，修改代码如下：
 
@@ -731,19 +731,19 @@ var result = add(10,20,30,40);
 
 JavaScript中的对象有很多，主要可以分为如下3大类，我们可以打开[W3school在线学习文档](https://www.w3school.com.cn/)，来到首页，在左侧栏找到浏览器脚本下的JavaScript，如下图所示：
 
-![1668587524509](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668587524509.png)
+![1668587524509](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668587524509.png?raw=true)
 
 
 
 然后进入到如下界面，点击右侧的参考书
 
-![1668587661914](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668587661914.png) 
+![1668587661914](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668587661914.png?raw=true) 
 
 
 
 然后进入到如下页面，此页面列举出了JavaScript中的所有对象
 
-![1668587855863](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668587855863.png)
+![1668587855863](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668587855863.png?raw=true)
 
 
 
@@ -751,15 +751,15 @@ JavaScript中的对象有很多，主要可以分为如下3大类，我们可以
 
 第一类：基本对象,我们主要学习Array和JSON和String
 
-![1668587953841](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668587953841.png) 
+![1668587953841](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668587953841.png?raw=true) 
 
 第二类：BOM对象,主要是和浏览器相关的几个对象
 
-![1668588039871](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668588039871.png) 
+![1668588039871](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668588039871.png?raw=true) 
 
 第三类：DOM对象，JavaScript中将html的每一个标签都封装成一个对象
 
-![1668588141399](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668588141399.png) 
+![1668588141399](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668588141399.png?raw=true) 
 
 我们先来学习基本对象中的Array对象
 
@@ -818,7 +818,7 @@ arr[索引] = 值;
 
 浏览器控制台观察的效果如下：输出1和2
 
-![1668590655291](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668590655291.png) 
+![1668590655291](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668590655291.png?raw=true) 
 
 
 
@@ -840,7 +840,7 @@ console.log(arr[8]);
 
 上述代码定义的arr变量中，数组的长度是4，但是我们直接再索引10的位置直接添加了数据10，并且输出索引为10的位置的元素，浏览器控制台数据结果如下：
 
-![1668590614787](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668590614787.png) 
+![1668590614787](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668590614787.png?raw=true) 
 
 因为索引8和9的位置没有值，所以输出内容undefined,当然，我们也可以给数组添加其他类型的值，添加代码如下：注释掉之前控制台输出的代码
 
@@ -861,7 +861,7 @@ console.log(arr);
 
 浏览器控制台输出结果如下：
 
-![1668590895662](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668590895662.png) 
+![1668590895662](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668590895662.png?raw=true) 
 
 
 
@@ -899,7 +899,7 @@ Array作为一个对象，那么对象是有属性和方法的，所以接下来
 
   浏览器控制台输出结果如图所示：
 
-  ![1668591566013](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668591566013.png) 
+  ![1668591566013](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668591566013.png?raw=true) 
 
 
 
@@ -928,7 +928,7 @@ Array作为一个对象，那么对象是有属性和方法的，所以接下来
 
   浏览器输出结果如下：注意的是，没有元素的内容是不会输出的，因为forEach只会遍历有值的元素 
 
-  ![1668592407223](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668592407223.png)  
+  ![1668592407223](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668592407223.png?raw=true)  
 
 
 
@@ -944,7 +944,7 @@ Array作为一个对象，那么对象是有属性和方法的，所以接下来
 
   浏览器输出结果如下：
 
-  ![1668593799333](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668593799333.png) 
+  ![1668593799333](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668593799333.png?raw=true) 
 
   
 
@@ -968,7 +968,7 @@ Array作为一个对象，那么对象是有属性和方法的，所以接下来
 
   浏览器执行效果如下：元素3和4被删除了，元素3是索引2
 
-  ![1668594075039](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668594075039.png) 
+  ![1668594075039](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668594075039.png?raw=true) 
 
 
 
@@ -1091,7 +1091,7 @@ var str = 'Hello String';
 
 浏览器控制台输出结果如下：
 
-![1668595022160](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668595022160.png) 
+![1668595022160](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668595022160.png?raw=true) 
 
 
 
@@ -1209,7 +1209,7 @@ String对象也提供了一些常用的属性和方法，如下表格所示：
 
 浏览器执行效果如图所示：
 
-![1668595450181](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668595450181.png) 
+![1668595450181](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668595450181.png?raw=true) 
 
 
 
@@ -1264,7 +1264,7 @@ var 对象名 = {
 
 浏览器控制台结果如下：
 
-![1668596039535](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668596039535.png)
+![1668596039535](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668596039535.png?raw=true)
 
 其中上述函数定义的语法可以简化成如下格式：
 
@@ -1308,11 +1308,11 @@ JSON对象：**J**ava**S**cript **O**bject **N**otation，JavaScript对象标记
 
 
 
-![1668596701343](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668596701343.png) 
+![1668596701343](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668596701343.png?raw=true) 
 
 但是当我们将双引号切换成单引号，再次校验，则报错，如下图所示：
 
-![1668596798551](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668596798551.png)
+![1668596798551](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668596798551.png?raw=true)
 
 
 
@@ -1320,7 +1320,7 @@ JSON对象：**J**ava**S**cript **O**bject **N**otation，JavaScript对象标记
 
 如下图所示：前后台交互时，我们需要传输数据，但是java中的对象我们该怎么去描述呢？我们可以使用如图所示的xml格式，可以清晰的描述java中需要传递给前端的java对象。
 
-![1668597000013](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668597000013.png) 
+![1668597000013](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668597000013.png?raw=true) 
 
 
 
@@ -1331,7 +1331,7 @@ JSON对象：**J**ava**S**cript **O**bject **N**otation，JavaScript对象标记
 
 所以我们可以使用json来替代，如下图所示：
 
-![1668597176685](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668597176685.png) 
+![1668597176685](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668597176685.png?raw=true) 
 
 
 
@@ -1344,7 +1344,7 @@ alert(jsonstr.name);
 
 浏览器输出结果如下：
 
-![1668597352197](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668597352197.png) 
+![1668597352197](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668597352197.png?raw=true) 
 
 为什么呢？**因为上述是一个json字符串，不是json对象，所以我们需要借助如下函数来进行json字符串和json对象的转换。**添加代码如下：
 
@@ -1355,7 +1355,7 @@ alert(obj.name);
 
 此时浏览器输出结果如下：
 
-![1668597489911](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668597489911.png) 
+![1668597489911](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668597489911.png?raw=true) 
 
 当然了，我们也可以通过如下函数将json对象再次转换成json字符串。添加如下代码：
 
@@ -1365,7 +1365,7 @@ alert(JSON.stringify(obj));
 
 浏览器输出结果如图所示：
 
-![1668597624263](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668597624263.png) 
+![1668597624263](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668597624263.png?raw=true) 
 
 
 
@@ -1437,7 +1437,7 @@ BOM中提供了如下5个对象：
 
 上述5个对象与浏览器各组成对应的关系如下图所示：
 
-![](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/image-20210815194911914.png) 
+![](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/image-20210815194911914.png?raw=true) 
 
 对于上述5个对象，我们重点学习的是Window对象、Location对象这2个。
 
@@ -1493,7 +1493,7 @@ window也提供了一些常用的函数，如下表格所示：
 
   浏览器打开，依次弹框，此处只截图一张
 
-  ![1668794735581](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668794735581.png) 
+  ![1668794735581](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668794735581.png?raw=true) 
 
   
 
@@ -1507,7 +1507,7 @@ window也提供了一些常用的函数，如下表格所示：
 
   浏览器打开效果如图所示：
 
-  ![1668794898891](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668794898891.png) 
+  ![1668794898891](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668794898891.png?raw=true) 
 
   但是我们怎么知道用户点击了确认还是取消呢？所以这个函数有一个返回值，当用户点击确认时，返回true，点击取消时，返回false。我们根据返回值来决定是否执行后续操作。修改代码如下：再次运行，可以查看返回值true或者false
 
@@ -1535,7 +1535,7 @@ window也提供了一些常用的函数，如下表格所示：
 
   刷新页面，浏览器每个一段时间都会在控制台输出，结果如下：
 
-  ![1668795435780](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668795435780.png) 
+  ![1668795435780](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668795435780.png?raw=true) 
 
 - setTimeout(fn,毫秒值) ：定时器，只会在一段时间后**执行一次功能**。参数和上述setInterval一致
 
@@ -1565,7 +1565,7 @@ location.href = "https://www.itcast.cn";
 
 浏览器效果如下：首先弹框展示浏览器地址栏信息，
 
-![1668796236628](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668796236628.png) 
+![1668796236628](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668796236628.png?raw=true) 
 
 然后点击确定后，因为我们设置了地址栏信息，所以浏览器跳转到传智首页
 
@@ -1636,7 +1636,7 @@ DOM 其实我们并不陌生，之前在学习 XML 就接触过，只不过 XML 
 
 如下图，左边是 HTML 文档内容，右边是 DOM 树
 
-![1668796698067](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668796698067.png) 
+![1668796698067](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668796698067.png?raw=true) 
 
 那么我们学习DOM技术有什么用呢？主要作用如下：
 
@@ -1709,7 +1709,7 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
   浏览器打开，效果如图所示：从弹出的结果能够看出，这是一个图片标签对象
 
-  ![1668798266255](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668798266255.png) 
+  ![1668798266255](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668798266255.png?raw=true) 
 
 - document.getElementsByTagName() :  根据标签的名字获取标签对象，同名的标签有很多，所以返回值是数组。
 
@@ -1725,7 +1725,7 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
   浏览器输出2次如下所示的弹框
 
-  ![1668799227223](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668799227223.png) 
+  ![1668799227223](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668799227223.png?raw=true) 
 
 - document.getElementsByName() ：根据标签的name的属性值获取标签对象，name属性值可以重复，所以返回值是一个数组。
 
@@ -1741,7 +1741,7 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
   浏览器会有3次如下图所示的弹框：
 
-  ![1668799393592](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668799393592.png)  
+  ![1668799393592](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668799393592.png?raw=true)  
 
 - document.getElementsByClassName() : 根据标签的class属性值获取标签对象，class属性值也可以重复，返回值是数组。
 
@@ -1757,13 +1757,13 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
   浏览器会弹框2次，都是div标签对象
 
-  ![1668799564602](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668799564602.png) 
+  ![1668799564602](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668799564602.png?raw=true) 
 
 - 操作属性
 
   那么获取到标签了，我们如何操作标签的属性呢？通过查询文档资料，如下图所示：
 
-  ![1668800047162](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668800047162.png) 
+  ![1668800047162](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668800047162.png?raw=true) 
 
   得出我们可以通过div标签对象的innerHTML属性来修改标签的内容。此时我们想把页面中的**传智教育替换成传智教育666**，所以要获取2个div中的第一个，所以可以通过下标0获取数组中的第一个div，注释之前的代码，编写如下代码：
 
@@ -1776,7 +1776,7 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
   浏览器刷新页面，展示效果如下图所示：
 
-  ![1668800387791](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668800387791.png) 
+  ![1668800387791](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668800387791.png?raw=true) 
 
   发现页面内容变成了传智教育666
 
@@ -1858,13 +1858,13 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
 效果如下所示：
 
-![1668800646200](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668800646200.png) 
+![1668800646200](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668800646200.png?raw=true) 
 
 #### 1.5.4.2 资料准备
 
 在JS目录下，也就是用于存放html文件的同级创建img文件下，然后将`资料/图片素材`中提供的2张图片拷贝到img文件夹中，最终整体结果如下图所示：
 
-![1668801302139](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668801302139.png) 
+![1668801302139](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668801302139.png?raw=true) 
 
 
 
@@ -1899,7 +1899,7 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
 浏览器打开此时效果如图所示：
 
-![1668800839720](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668800839720.png) 
+![1668800839720](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668800839720.png?raw=true) 
 
 
 
@@ -1930,7 +1930,7 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
 浏览器打开，效果如图所示：
 
-![1668801541168](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668801541168.png) 
+![1668801541168](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668801541168.png?raw=true) 
 
 
 
@@ -1965,7 +1965,7 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
 浏览器打开效果如图所示：
 
-![1668801991368](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668801991368.png) 
+![1668801991368](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668801991368.png?raw=true) 
 
 
 
@@ -1998,7 +1998,7 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
 浏览器刷新，效果如图所示:
 
-![1668802645347](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668802645347.png) 
+![1668802645347](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668802645347.png?raw=true) 
 
 
 
@@ -2058,7 +2058,7 @@ HTML中的Element对象可以通过Document对象获取，而Document对象是�
 
 如下图所示的百度注册页面，当我们用户输入完内容，百度可以自动的提示我们用户名已经存在还是可以使用。那么百度是怎么知道我们用户名输入完了呢？这就需要用到JavaScript中的事件了。
 
-![1668802830796](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668802830796.png) 
+![1668802830796](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668802830796.png?raw=true) 
 
 什么是事件呢？HTML事件是发生在HTML元素上的 “事情”，例如：
 
@@ -2100,7 +2100,7 @@ JavaScript对于事件的绑定提供了2种方式：
 
   浏览器打开，然后点击按钮，弹框如下：
 
-  ![1668804375833](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668804375833.png) 
+  ![1668804375833](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668804375833.png?raw=true) 
 
   
 
@@ -2122,7 +2122,7 @@ JavaScript对于事件的绑定提供了2种方式：
 
   浏览器刷新页面，点击第二个按钮，弹框如下：
 
-  ![1668804696373](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668804696373.png) 
+  ![1668804696373](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668804696373.png?raw=true) 
 
   
 
@@ -2182,11 +2182,11 @@ JavaScript对于事件的绑定提供了2种方式：
 
 - onfocus:获取焦点事件，鼠标点击输入框，输入框中光标一闪一闪的，就是输入框获取焦点了
 
-  ![1668805346551](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668805346551.png) 
+  ![1668805346551](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668805346551.png?raw=true) 
 
 - onblur:失去焦点事件，前提是输入框获取焦点的状态下，在输入框之外的地方点击，光标从输入框中消失了，这就是失去焦点。
 
-  ![1668805498416](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668805498416.png) 
+  ![1668805498416](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668805498416.png?raw=true) 
 
 其他事件的效果，同学们可以通过提供好的代码去演示，亲身体会事件在什么时候触发。
 
@@ -2206,7 +2206,7 @@ JavaScript对于事件的绑定提供了2种方式：
 
 效果如图所示：
 
-![1668806049390](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668806049390.png) 
+![1668806049390](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668806049390.png?raw=true) 
 
  
 
@@ -2250,7 +2250,7 @@ JavaScript对于事件的绑定提供了2种方式：
 
 浏览器打开如图所示：
 
-![1668806362090](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668806362090.png) 
+![1668806362090](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668806362090.png?raw=true) 
 
 
 
@@ -2514,11 +2514,11 @@ MVVM:其实是Model-View-ViewModel的缩写，有3个单词，具体释义如下
 
 如图所示就是MVVM开发思想的含义：
 
-![1668857055058](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668857055058.png) 
+![1668857055058](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668857055058.png?raw=true) 
 
 基于上述的MVVM思想，其中的Model我们可以通过Ajax来发起请求从后台获取;对于View部分，我们将来会学习一款ElementUI框架来替代HTML+CSS来更加方便的搭建View;而今天我们要学习的就是侧重于ViewModel部分开发的vue前端框架，用来替代JavaScript的DOM操作，让数据展示到视图的代码开发变得更加的简单。可以简单到什么程度呢？可以参考下图对比：
 
-![1668858213508](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668858213508.png) 
+![1668858213508](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668858213508.png?raw=true) 
 
 在更加复杂的dom操作中，vue只会变得更加的简单！在上述的代码中，我们看不到之前的DOM操作，因为vue全部帮我们封装好了。
 
@@ -2538,7 +2538,7 @@ Vue.js（读音 /vjuː/, 类似于 **view**） 是一套构建用户界面的 **
 
 第一步：在VS Code中创建名为12. Vue-快速入门.html的文件，并且在html文件同级创建js目录，将**资料/vue.js文件**目录下得vue.js拷贝到js目录，如下图所示：
 
-![1668858952627](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668858952627.png) 
+![1668858952627](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668858952627.png?raw=true) 
 
 第二步：然后编写&lt;script&gt;标签来引入vue.js文件，代码如下：
 
@@ -2579,7 +2579,7 @@ Vue.js（读音 /vjuː/, 类似于 **view**） 是一套构建用户界面的 **
 
 浏览器打开效果如图所示：
 
-![1668859214102](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668859214102.png) 
+![1668859214102](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668859214102.png?raw=true) 
 
 
 
@@ -2701,7 +2701,7 @@ Vue.js（读音 /vjuː/, 类似于 **view**） 是一套构建用户界面的 **
 
   浏览器打开，2个超链接都可以点击，然后跳转到百度去！效果如图所示：
 
-  ![1668860425429](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668860425429.png) 
+  ![1668860425429](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668860425429.png?raw=true) 
 
   
 
@@ -2720,7 +2720,7 @@ Vue.js（读音 /vjuː/, 类似于 **view**） 是一套构建用户界面的 **
 
   打开浏览器，我们修改表单项标签，发现vue对象data中的数据也发生了变化，如下图所示：
 
-  ![1668861009068](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668861009068.png) 
+  ![1668861009068](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668861009068.png?raw=true) 
 
   通过上图我们发现，我们只是改变了表单数据，那么我们之前超链接的绑定的数据值也发生了变化，为什么？
 
@@ -2951,7 +2951,7 @@ v-on: 用来给html标签绑定事件的。**需要注意的是如下2点**：
 
 浏览器打开测试效果如下图：
 
-![1668864281939](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668864281939.png) 
+![1668864281939](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668864281939.png?raw=true) 
 
 v-show和v-if的作用效果是一样的，只是原理不一样。复制上述html代码，修改v-if指令为v-show指令，代码如下：
 
@@ -2964,7 +2964,7 @@ v-show和v-if的作用效果是一样的，只是原理不一样。复制上述h
 
 打开浏览器，展示效果如下所示：
 
-![1668864558419](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668864558419.png) 
+![1668864558419](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668864558419.png?raw=true) 
 
 可以发现，浏览器呈现的效果是一样的，但是浏览器中html源码不一样。v-if指令，不满足条件的标签代码直接没了，而v-show指令中，不满足条件的代码依然存在，只是添加了css样式来控制标签不去显示。
 
@@ -3081,7 +3081,7 @@ v-for: 从名字我们就能看出，这个指令是用来遍历的。其语法�
 
 浏览器打开，呈现如下效果：
 
-![1668866805981](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668866805981.png) 
+![1668866805981](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668866805981.png?raw=true) 
 
 
 
@@ -3089,7 +3089,7 @@ v-for: 从名字我们就能看出，这个指令是用来遍历的。其语法�
 
 - 需求：
 
-  ![1668868100828](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668868100828.png) 
+  ![1668868100828](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668868100828.png?raw=true) 
 
   如上图所示，我们提供好了数据模型，users是数组集合，提供了多个用户信息。然后我们需要将数据以表格的形式，展示到页面上，其中，性别需要转换成中文男女，等级需要将分数数值转换成对应的等级。
 
@@ -3295,7 +3295,7 @@ vue的生命周期：指的是vue对象从创建到销毁的过程。vue的生�
 
 下图是 Vue 官网提供的从创建 Vue 到效果 Vue 对象的整个过程及各个阶段对应的钩子函数：
 
-![1668867134683](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668867134683.png)
+![1668867134683](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668867134683.png?raw=true)
 
 其中我们需要重点关注的是**mounted,**其他的我们了解即可。
 
@@ -3357,5 +3357,5 @@ mounted：挂载完成，Vue初始化成功，HTML页面渲染成功。**以后�
 
 浏览器打开，运行结果如下：我们发现，自动打印了这句话，因为页面加载完成，vue对象创建并且完成了挂在，此时自动触发mounted所绑定的钩子函数，然后自动执行，弹框。
 
-![1668867458156](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day02-JavaScript-Vue/1668867458156.png) 
+![1668867458156](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day02-JavaScript-Vue/1668867458156.png?raw=true) 
 

@@ -2,7 +2,7 @@
 
 前面我们已经讲解了Web前端开发的基础知识，也讲解了Web后端开发的基础(HTTP协议、请求响应)，并且也讲解了数据库MySQL，以及通过Mybatis框架如何来完成数据库的基本操作。 那接下来，我们就通过一个案例，来将前端开发、后端开发、数据库整合起来。 而这个案例呢，就是我们前面提到的Tlias智能学习辅助系统。
 
-![](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20220904104826854.png)
+![](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20220904104826854.png?raw=true)
 
 在这个案例中，前端开发人员已经将前端工程开发完毕了。 我们需要做的，就是参考接口文档完成后端功能的开发，然后结合前端工程进行联调测试即可。
 
@@ -10,7 +10,7 @@
 
 **完成后的成品效果展示：**
 
-![image-20220904103734643](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20220904103734643.png)
+![image-20220904103734643](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20220904103734643.png?raw=true)
 
 
 
@@ -42,7 +42,7 @@
 
 **1、部门管理**
 
-![image-20221213205503102](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221213205503102.png)
+![image-20221213205503102](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221213205503102.png?raw=true)
 
 部门管理功能开发包括：
 
@@ -55,7 +55,7 @@
 
 **2、员工管理**
 
-![image-20221213205737307](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221213205737307.png)
+![image-20221213205737307](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221213205737307.png?raw=true)
 
 员工管理功能开发包括：
 
@@ -68,7 +68,7 @@
 
 #### 1.1.2 环境搭建
 
-![image-20221213230710821](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221213230710821.png)
+![image-20221213230710821](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221213230710821.png?raw=true)
 
 
 
@@ -136,9 +136,9 @@ INSERT INTO emp
 
 第2步：创建一个SpringBoot工程，选择引入对应的起步依赖（web、mybatis、mysql驱动、lombok） (版本选择2.7.5版本，可以创建完毕之后，在pom.xml文件中更改版本号)
 
-![image-20221213221142985](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221213221142985.png)
+![image-20221213221142985](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221213221142985.png?raw=true)
 
-![image-20221213221408420](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221213221408420.png)
+![image-20221213221408420](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221213221408420.png?raw=true)
 
  生成的pom.xml文件：
 
@@ -211,7 +211,7 @@ INSERT INTO emp
 
 创建项目工程目录结构：
 
-![image-20221213222039985](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221213222039985.png)
+![image-20221213222039985](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221213222039985.png?raw=true)
 
 
 
@@ -381,7 +381,7 @@ public class EmpController {
 
 项目工程结构：
 
-![image-20221213224927868](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221213224927868.png)
+![image-20221213224927868](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221213224927868.png?raw=true)
 
 
 
@@ -397,13 +397,13 @@ public class EmpController {
 
 我们的案例是基于当前最为主流的前后端分离模式进行开发。
 
-![image-20221213230911102](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221213230911102.png)
+![image-20221213230911102](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221213230911102.png?raw=true)
 
 在前后端分离的开发模式中，前后端开发人员都需要根据提前定义好的接口文档，来进行前后端功能的开发。
 
 > 后端开发人员：必须严格遵守提供的接口文档进行后端功能开发（保障开发的功能可以和前端对接）
 >
-> ![image-20221213231519551](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221213231519551.png)
+> ![image-20221213231519551](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221213231519551.png?raw=true)
 
 
 
@@ -503,7 +503,7 @@ public class Result {
 
 我们在进行功能开发时，都是根据如下流程进行：
 
-![image-20220904125004138](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20220904125004138.png) 
+![image-20220904125004138](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20220904125004138.png?raw=true) 
 
 1. 查看页面原型明确需求
    - 根据页面原型和需求，进行表结构设计、编写接口文档(已提供)
@@ -542,7 +542,7 @@ public class Result {
 
 #### 2.1.1 原型和需求
 
-![image-20221213234154699](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221213234154699.png)
+![image-20221213234154699](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221213234154699.png?raw=true)
 
 > 查询的部门的信息：部门ID、部门名称、修改时间
 >
@@ -611,7 +611,7 @@ public class Result {
 
 #### 2.1.3 思路分析
 
-![image-20221213235157345](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221213235157345.png)
+![image-20221213235157345](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221213235157345.png?raw=true)
 
 
 
@@ -648,7 +648,7 @@ public class DeptController {
 
 > @Slf4j注解源码：
 >
-> ![image-20221214000909044](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214000909044.png)
+> ![image-20221214000909044](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214000909044.png?raw=true)
 
 **DeptService**（业务接口）
 
@@ -698,7 +698,7 @@ public interface DeptMapper {
 
 功能开发完成后，我们就可以启动项目，然后打开postman，发起GET请求，访问 ：http://localhost:8080/depts
 
-![](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20220904130315247.png)
+![](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20220904130315247.png?raw=true)
 
 
 
@@ -710,33 +710,33 @@ public interface DeptMapper {
 
 1、将资料中提供的"前端环境"文件夹中的压缩包，拷贝到一个没有中文不带空格的目录下
 
-![image-20221214100230484](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214100230484.png) 
+![image-20221214100230484](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214100230484.png?raw=true) 
 
 
 
 2、拷贝到一个没有中文不带空格的目录后，进行解压（解压到当前目录）
 
-![image-20221214100039074](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214100039074.png) 
+![image-20221214100039074](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214100039074.png?raw=true) 
 
 
 
 3、启动nginx
 
-![image-20221214100703404](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214100703404.png) 
+![image-20221214100703404](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214100703404.png?raw=true) 
 
-![image-20221214101711107](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214101711107.png)
+![image-20221214101711107](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214101711107.png?raw=true)
 
 
 
 4、打开浏览器，访问：http://localhost:90
 
-![image-20221214100918557](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214100918557.png)
+![image-20221214100918557](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214100918557.png?raw=true)
 
 
 
 5、测试：部门管理 - 查询部门列表
 
-![image-20221214101436198](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214101436198.png)
+![image-20221214101436198](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214101436198.png?raw=true)
 
 > 说明：只要按照接口文档开发功能接口，就能保证前后端程序交互
 >
@@ -755,7 +755,7 @@ public interface DeptMapper {
 
 #### 2.3.1 需求
 
-![](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20220904132440220.png)
+![](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20220904132440220.png?raw=true)
 
 点击部门列表后面操作栏的 "删除" 按钮，就可以删除该部门信息。 此时，前端只需要给服务端传递一个ID参数就可以了。 我们从接口文档中也可以看得出来。
 
@@ -815,7 +815,7 @@ public interface DeptMapper {
 
 #### 2.3.3 思路分析
 
-![image-20221214102705490](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214102705490.png)
+![image-20221214102705490](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214102705490.png?raw=true)
 
 > 接口文档规定：
 >
@@ -927,7 +927,7 @@ public interface DeptMapper {
 
 删除功能开发完成后，重新启动项目，使用postman，发起DELETE请求：
 
-![image-20221214112451600](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214112451600.png)
+![image-20221214112451600](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214112451600.png?raw=true)
 
 
 
@@ -935,9 +935,9 @@ public interface DeptMapper {
 
 打开浏览器，测试后端功能接口：
 
-![image-20221214113708369](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214113708369.png)
+![image-20221214113708369](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214113708369.png?raw=true)
 
-![image-20221214113941657](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214113941657.png)
+![image-20221214113941657](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214113941657.png?raw=true)
 
 
 
@@ -1015,7 +1015,7 @@ public interface DeptMapper {
 
 #### 2.4.3 思路分析
 
-![image-20221214115519648](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214115519648.png)
+![image-20221214115519648](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214115519648.png?raw=true)
 
 > 接口文档规定：
 >
@@ -1130,7 +1130,7 @@ public interface DeptMapper {
 
 新增功能开发完成后，重新启动项目，使用postman，发起POST请求：
 
-![image-20221214153758708](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214153758708.png)
+![image-20221214153758708](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214153758708.png?raw=true)
 
 
 
@@ -1138,9 +1138,9 @@ public interface DeptMapper {
 
 打开浏览器，测试后端功能接口：
 
-![image-20221215105446189](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215105446189.png)
+![image-20221215105446189](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215105446189.png?raw=true)
 
-![image-20221214154645746](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221214154645746.png)
+![image-20221214154645746](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221214154645746.png?raw=true)
 
 
 
@@ -1150,17 +1150,17 @@ public interface DeptMapper {
 
 首先我们先来看下目前controller层代码：
 
-![image-20221215110553435](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215110553435.png)
+![image-20221215110553435](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215110553435.png?raw=true)
 
 > 以上三个方法上的请求路径，存在一个共同点：都是以`/depts`作为开头。（重复了）
 
 在Spring当中为了简化请求路径的定义，可以把公共的请求路径，直接抽取到类上，在类上加一个注解@RequestMapping，并指定请求路径"/depts"。代码参照如下：
 
-![image-20221215111110219](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215111110219.png)
+![image-20221215111110219](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215111110219.png?raw=true)
 
 > 优化前后的对比：
 >
-> ![image-20221215111309042](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215111309042.png)
+> ![image-20221215111309042](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215111309042.png?raw=true)
 
 > 注意事项：一个完整的请求路径，应该是类上@RequestMapping的value属性 + 方法上的 @RequestMapping的value属性
 
@@ -1176,7 +1176,7 @@ public interface DeptMapper {
 
 完成了部门管理的功能开发之后，我们进入到下一环节员工管理功能的开发。
 
-![image-20221215142107329](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215142107329.png)
+![image-20221215142107329](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215142107329.png?raw=true)
 
 基于以上原型，我们可以把员工管理功能分为：
 
@@ -1198,7 +1198,7 @@ public interface DeptMapper {
 
 > 使用分页解决这个问题。每次只展示一页的数据，比如：一页展示10条数据，如果还想看其他的数据，可以通过点击页码进行查询。
 
-![image-20221215141233541](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215141233541.png)
+![image-20221215141233541](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215141233541.png?raw=true)
 
 要想从数据库中进行分页查询，我们要使用`LIMIT`关键字，格式为：limit  开始索引  每页显示的条数
 
@@ -1233,7 +1233,7 @@ public interface DeptMapper {
    - 所查询到的数据列表（存储到List 集合中）
    - 总记录数
 
-![image-20221215152021068](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215152021068.png)
+![image-20221215152021068](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215152021068.png?raw=true)
 
 > 后台给前端返回的数据包含：List集合(数据列表)、total(总记录数)
 >
@@ -1355,11 +1355,11 @@ public interface DeptMapper {
 
 ##### 3.1.1.3 思路分析
 
-![image-20221215153413290](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215153413290.png)
+![image-20221215153413290](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215153413290.png?raw=true)
 
 分页查询需要的数据，封装在PageBean对象中：
 
-![image-20221215154036047](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215154036047.png)
+![image-20221215154036047](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215154036047.png?raw=true)
 
 
 
@@ -1484,7 +1484,7 @@ public interface EmpMapper {
 
 功能开发完成后，重新启动项目，使用postman，发起POST请求：
 
-![image-20221215162008339](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215162008339.png)
+![image-20221215162008339](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215162008339.png?raw=true)
 
 
 
@@ -1492,7 +1492,7 @@ public interface EmpMapper {
 
 打开浏览器，测试后端功能接口：
 
-![image-20221215183413504](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215183413504.png)
+![image-20221215183413504](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215183413504.png?raw=true)
 
 
 
@@ -1504,7 +1504,7 @@ public interface EmpMapper {
 
 前面我们已经完了基础的分页查询，大家会发现：分页查询功能编写起来比较繁琐。
 
-![image-20221215164811566](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215164811566.png)
+![image-20221215164811566](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215164811566.png?raw=true)
 
 > 在Mapper接口中定义两个方法执行两条不同的SQL语句：
 >
@@ -1525,7 +1525,7 @@ public interface EmpMapper {
 >
 > 官网：https://pagehelper.github.io/
 
-![image-20221215170038833](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215170038833.png)
+![image-20221215170038833](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215170038833.png?raw=true)
 
 > 在执行empMapper.list()方法时，就是执行：select  *  from  emp   语句，怎么能够实现分页操作呢？
 >
@@ -1591,11 +1591,11 @@ public PageBean page(Integer page, Integer pageSize) {
 
 功能开发完成后，我们重启项目工程，打开postman，发起GET请求，访问 ：http://localhost:8080/emps?page=1&pageSize=5
 
-![image-20221215162008339](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215162008339.png)
+![image-20221215162008339](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215162008339.png?raw=true)
 
 > 后端程序SQL输出：
 >
-> ![image-20221215174820377](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215174820377.png)
+> ![image-20221215174820377](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215174820377.png?raw=true)
 
 
 
@@ -1609,7 +1609,7 @@ public PageBean page(Integer page, Integer pageSize) {
 
 #### 3.2.1 需求
 
-![image-20221215175639974](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215175639974.png)
+![image-20221215175639974](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215175639974.png?raw=true)
 
 通过员工管理的页面原型我们可以看到，员工列表页面的查询，不仅仅需要考虑分页，还需要考虑查询条件。 分页查询我们已经实现了，接下来，我们需要考虑在分页查询的基础上，再加上查询条件。
 
@@ -1635,7 +1635,7 @@ order by update_time desc;
 
 #### 3.2.2 思路分析
 
-![image-20221215180528415](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215180528415.png)
+![image-20221215180528415](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215180528415.png?raw=true)
 
 
 
@@ -1776,11 +1776,11 @@ public interface EmpMapper {
 
 功能开发完成后，重启项目工程，打开postman，发起GET请求：
 
-![image-20221215182344380](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215182344380.png)
+![image-20221215182344380](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215182344380.png?raw=true)
 
 > 控制台SQL语句：
 >
-> ![image-20221215182952789](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215182952789.png)
+> ![image-20221215182952789](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215182952789.png?raw=true)
 
 
 
@@ -1788,7 +1788,7 @@ public interface EmpMapper {
 
 打开浏览器，测试后端功能接口：
 
-![image-20221215183510458](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215183510458.png)
+![image-20221215183510458](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215183510458.png?raw=true)
 
 
 
@@ -1810,7 +1810,7 @@ public interface EmpMapper {
 
 #### 3.3.1 需求
 
-![image-20221215183657413](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215183657413.png)
+![image-20221215183657413](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215183657413.png?raw=true)
 
 当我们勾选列表前面的复选框，然后点击 "批量删除" 按钮，就可以将这一批次的员工信息删除掉了。也可以只勾选一个复选框，仅删除一个员工信息。
 
@@ -1876,7 +1876,7 @@ public interface EmpMapper {
 
 #### 3.3.3 思路分析
 
-![image-20221215184714815](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215184714815.png)
+![image-20221215184714815](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215184714815.png?raw=true)
 
 > 接口文档规定：
 >
@@ -2023,11 +2023,11 @@ public interface EmpMapper {
 
 功能开发完成后，重启项目工程，打开postman，发起DELETE请求：
 
-![image-20221215190229696](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215190229696.png)
+![image-20221215190229696](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215190229696.png?raw=true)
 
 > 控制台SQL语句：
 >
-> ![image-20221215190948723](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215190948723.png)
+> ![image-20221215190948723](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215190948723.png?raw=true)
 
 
 
@@ -2035,11 +2035,11 @@ public interface EmpMapper {
 
 打开浏览器，测试后端功能接口：
 
-![image-20221215190606676](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215190606676.png)
+![image-20221215190606676](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215190606676.png?raw=true)
 
-![image-20221215190640539](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215190640539.png)
+![image-20221215190640539](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215190640539.png?raw=true)
 
-![](C:\Users\lulal\Desktop\MdSource仓库\assert\javaweb\day10-SpringBootWeb案例/image-20221215190753313.png)
+![](https://github.com/peakXiaobai/MdSource/blob/main/assert/javaweb/day10-SpringBootWeb案例/image-20221215190753313.png?raw=true)
 
 
 
